@@ -1,0 +1,54 @@
+{
+    "name": "netglue/laminas-mail-utils",
+    "description": "A collection of straight-forward validators for Laminas mail messages and some common behaviours for transactional email messages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Steel",
+            "email": "george@net-glue.co.uk"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.3",
+        "laminas/laminas-mail": "^2.10",
+        "laminas/laminas-mime": "^2.7",
+        "laminas/laminas-validator": "^2.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netglue\\Mail\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netglue\\MailTest\\": "tests"
+        }
+    },
+    "require-dev": {
+        "doctrine/coding-standard": "^7.0",
+        "laminas/laminas-component-installer": "^2.1",
+        "laminas/laminas-config-aggregator": "^1.2",
+        "laminas/laminas-servicemanager": "^3.4",
+        "phpunit/phpunit": "^9.0",
+        "roave/security-advisories": "dev-master"
+    },
+    "scripts": {
+        "check": [
+            "@cs-check",
+            "@test"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit --colors=always",
+        "test-coverage": "phpunit --colors=always --coverage-html build/report"
+    },
+    "extra": {
+        "laminas": {
+            "component": "Netglue\\Mail\\ConfigProvider"
+        }
+    }
+}
