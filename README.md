@@ -1,5 +1,8 @@
 # Laminas Mail Utilities
 
+![PHPUnit Test Suite](https://github.com/netglue/laminas-mail-utils/workflows/PHPUnit%20Test%20Suite/badge.svg)
+[![codecov](https://codecov.io/gh/netglue/laminas-mail-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/netglue/laminas-mail-utils)
+
 ### Introduction
 
 This is a small package to scratch two primary itches
