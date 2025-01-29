@@ -3,6 +3,9 @@
 ![PHPUnit Test Suite](https://github.com/netglue/laminas-mail-utils/workflows/PHPUnit%20Test%20Suite/badge.svg)
 [![codecov](https://codecov.io/gh/netglue/laminas-mail-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/netglue/laminas-mail-utils)
 
+> [!CAUTION]
+> This library is abandoned because `laminas-mail` has been too…
+
 ### Introduction
 
 This is a small package to scratch two primary itches
@@ -104,6 +107,3 @@ if ($message instanceof TaggableMessage) {
 … is to implement vendor specific packages that lever these utilities, with, as you may have guessed, Postmark at the top of the list currently…
 
 The package is currently immature and subject to probable BC breaks and contributions are welcomed if this scratches any itches for you 👍
-
-
-
