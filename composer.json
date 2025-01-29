@@ -18,6 +18,7 @@
         "laminas/laminas-mime": "^2.7",
         "laminas/laminas-validator": "^2.13"
     },
+    "abandoned": true,
     "autoload": {
         "psr-4": {
             "Netglue\\Mail\\": "src"
